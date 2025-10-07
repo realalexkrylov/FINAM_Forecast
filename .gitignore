@@ -1,0 +1,38 @@
+# Данные (исключаем все кроме candles.csv и news.csv)
+data/train_news_features.csv
+data/combined_dataset.csv
+data/submission.csv
+
+# Модели (создаются автоматически)
+ticker_models/
+*.pkl
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи
+*.log
+
+# Временные файлы
+*.tmp
+*.temp
+
+# OS
+.DS_Store
+Thumbs.db
